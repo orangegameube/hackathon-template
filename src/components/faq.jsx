@@ -3,7 +3,7 @@ import FAQfunc from '../components/faqfunc.jsx';
 import '../styles/faq.css';
 
 export const FAQ = () => {
-    const [FAQvar, setfaqs] = useState([
+    const [faqs, setfaqs] = useState([
         {
             q: "What's a hackathon?",
             a: "A hackathon is an event where a bunch of people get together and build technical projects, which receive awards and recognition. You'll be able to enjoy free workshops and mentorship from our team in order to turn your vision into a reality!",
@@ -42,7 +42,7 @@ export const FAQ = () => {
     ]);
 
     const toggleFAQ = index => {
-        setfaqs(FAQvar.map((faq, i) => {
+        setfaqs(faqs.map((faq, i) => {
             if (i === index) {
                 faq.open =! faq.open
             } else {
@@ -56,7 +56,7 @@ export const FAQ = () => {
     return (
         <div>
             <div className="faqs">
-                {FAQvar.map((faq, i) => (
+                {faqs.map((faq, i) => (
                     <FAQfunc faq={faq} index={i} toggleFAQ={toggleFAQ}/>
                 ))}
             </div>
