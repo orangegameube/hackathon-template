@@ -1,6 +1,10 @@
-function FAQfunc({faq, index}) {
+function FAQfunc({faq, index, toggleFAQ}) {
     return (
-        <div className={"faq" + (faq.open ? 'open' : '')} key={index}>
+        <div 
+            className={"faq" + (faq.open ? 'open' : '')} 
+            key={index}
+            onClick={() => toggleFAQ(index)}
+        >
             <div className='faq-question'>
                 {faq.q}
             </div>

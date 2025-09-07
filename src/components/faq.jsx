@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import FAQfunc from '../components/faqfunc.jsx';
+import '../styles/faq.css';
 
 export const FAQ = () => {
     const [FAQvar, setfaqs] = useState([
@@ -40,11 +41,23 @@ export const FAQ = () => {
         },
     ]);
 
+    const toggleFAQ = index => {
+        setfaqs(FAQvar.map((faq, i) => {
+            if (i === index) {
+                faq.open =! faq.open
+            } else {
+                faq.open = false
+            }
+
+            return faq;
+        }))
+    }
+
     return (
         <div>
             <div className="faqs">
                 {FAQvar.map((faq, i) => (
-                    <FAQfunc faq={faq} index={i} />
+                    <FAQfunc faq={faq} index={i} toggleFAQ={toggleFAQ}/>
                 ))}
             </div>
         </div>
