@@ -25,8 +25,8 @@ const NavLinksStyled = () => {
 
     return (
         <>
-            <nav className="w-1/3 flex justify-end">
-                <div className="hidden w-full flex justify-between md:flex">
+            <nav className="flex flex-[1] items-center justify-end overflow-hidden">
+                <div className="hidden md:flex gap-6">
                     <NavLinks />
                 </div>
                 <div className='md:hidden'>
@@ -36,7 +36,7 @@ const NavLinksStyled = () => {
                 </div>
             </nav>
             {isOpen && (
-                <div className='flex flex-col items-center basis-full'>
+                <div className='flex flex-col items-center basis-full bg-white'>
                     <NavLinks />
                 </div>
             )}
