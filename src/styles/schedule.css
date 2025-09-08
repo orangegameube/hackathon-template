@@ -1,0 +1,25 @@
+
+
+.text-gradient {
+  background: linear-gradient(to right, #ec4899, #f59e0b, #fbbf24);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.sched {
+    align-items: center;
+    color: rgb(31, 31, 32);
+    text-align: right;
+}
+
+h3 {
+    text-align: left;
+    color: rgb(31, 31, 32);
+    font-size: 26px;
+}
+
+p {
+    text-align: left;
+}
