@@ -1,0 +1,37 @@
+
+h3 {
+    text-align: center;
+    color: rgb(66, 66, 66);
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+}
+
+.itemcont {
+    text-align: center;
+    color: rgb(84, 84, 84);
+}
+
+.logitem {
+    flex: 1;
+    display: inline-block;
+    position: relative;
+}
+
+.logitem::after + h3{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.logitem:hover::after + h3{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

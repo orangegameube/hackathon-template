@@ -55,6 +55,7 @@ export const FAQ = () => {
 
     return (
         <div id='faqdiv'>
+            <h1 className="text-center mt-30 mb-6">Frequently Asked Questions</h1>
             <div className="faqs">
                 {faqs.map((faq, i) => (
                     <FAQfunc faq={faq} index={i} toggleFAQ={toggleFAQ}/>
