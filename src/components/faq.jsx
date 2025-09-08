@@ -54,7 +54,7 @@ export const FAQ = () => {
     }
 
     return (
-        <div>
+        <div id='faqdiv'>
             <div className="faqs">
                 {faqs.map((faq, i) => (
                     <FAQfunc faq={faq} index={i} toggleFAQ={toggleFAQ}/>
