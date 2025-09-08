@@ -10,13 +10,39 @@
 
 .sched {
     align-items: center;
-    color: rgb(31, 31, 32);
+    color: rgb(212, 212, 224);
     text-align: right;
+}
+
+.sched:hover {
+    box-shadow: 0px 0px 40px 20px rgba(96, 23, 105, 0.5);
+    background-color: rgba(96, 23, 105, 0.5);
+    transition: 0.4s ease-in-out
+}
+
+.schedcont:hover {
+    box-shadow: 0px 0px 50px 30px rgba(72, 13, 80, 0.5);
+    transition: 0.4s ease-in;
+}
+
+.schedcont:hover > h2 {
+    text-shadow: 0px 0px 9px rgba(255, 148, 82, 0.7);
+    transition: 0.4s ease-in;
+}
+
+.schedcont:not(:hover) {
+    box-shadow: 0px 0px 0px 0px rgba(72, 13, 80, 0.5);
+    transition: 0.4s ease-in;
+}
+
+.schedcont:not(:hover) > h2 {
+    text-shadow: 0px 0px 0px rgba(255, 174, 82, 0.7);
+    transition: 0.4s ease-in;
 }
 
 h3 {
     text-align: left;
-    color: rgb(31, 31, 32);
+    color: rgb(212, 212, 224);
     font-size: 26px;
 }
 
