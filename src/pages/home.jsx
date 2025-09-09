@@ -4,6 +4,7 @@ import { Nav } from '../components/nav.jsx';
 import { Schedule } from '../components/schedule.jsx';
 import { Logistics } from '../components/logistics.jsx';
 import { Tracks } from '../components/tracks.jsx'
+import { Sponsors } from '../components/sponsors.jsx'
 
 export const Home = () => {
     return (
@@ -16,6 +17,7 @@ export const Home = () => {
                     <Tracks />
                     <Schedule />
                     <FAQ />
+                    <Sponsors />
                 </div>
             </div>
         </div>
