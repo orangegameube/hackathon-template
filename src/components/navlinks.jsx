@@ -5,11 +5,11 @@ import { useState } from "react";
 const NavLinks = () => {
     return (
         <>
-            <NavLink to="#frontpage">About</NavLink>
-            <NavLink to="#schedule">Schedule</NavLink>
-            <NavLink to="#faqdiv">FAQ</NavLink>
-            <NavLink to="#sponsors">Sponsors</NavLink>
-            <NavLink to="#team">Team</NavLink>
+            <NavLink href="#frontpage">About</NavLink>
+            <NavLink href="#schedule">Schedule</NavLink>
+            <NavLink href="#faqdiv">FAQ</NavLink>
+            <NavLink href="#sponsors">Sponsors</NavLink>
+            <NavLink href="#team">Team</NavLink>
         </>
     );
 };

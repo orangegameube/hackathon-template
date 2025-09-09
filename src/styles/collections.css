@@ -1,0 +1,41 @@
+
+
+.sponsorcont {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.sponsor {
+    margin: 0px 20px;
+}
+
+.teamcont {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+hr {
+    border: 5px solid white;
+}
+
+.member {
+    color: black;
+    font-weight: 600;
+    margin: 4px 20px;
+}
+
+.memberimg {
+    filter: invert(1);
+    margin: 22px;
+}
+
+.role {
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(95, 95, 95);
+    margin-bottom: 10px;
+}
