@@ -11,7 +11,7 @@ export const Tracks = () => {
                 <div className='rounded-xl bg-white p-10 m-5 trackd'>
                     <img />
                     <h3>Financial Literacy</h3>
-                    <h6>Using SQL to mimic real-world situations and careers in finance</h6>
+                    <h6>I like money.</h6>
                 </div>
                 <div className='rounded-xl bg-white p-10 m-5 trackd'>
                     <img />

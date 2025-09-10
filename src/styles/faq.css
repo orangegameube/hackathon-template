@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+#faqdiv {
+    padding-top: 30px;
+}
+
 .faqs {
     width: 100%;
     max-width: 750px;

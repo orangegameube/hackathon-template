@@ -1,15 +1,15 @@
-import {NavLink} from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { Menu, X } from 'lucide-react';
 import { useState } from "react";
 
 const NavLinks = () => {
     return (
         <>
-            <NavLink href="#frontpage">About</NavLink>
-            <NavLink href="#schedule">Schedule</NavLink>
-            <NavLink href="#faqdiv">FAQ</NavLink>
-            <NavLink href="#sponsors">Sponsors</NavLink>
-            <NavLink href="#team">Team</NavLink>
+            <HashLink smooth to="#logistics">About</HashLink>
+            <HashLink smooth to="#schedule">Schedule</HashLink>
+            <HashLink smooth to="#faqdiv">FAQ</HashLink>
+            <HashLink smooth to="#sponsors">Sponsors</HashLink>
+            <HashLink smooth to="#team">Team</HashLink>
         </>
     );
 };

@@ -1,4 +1,10 @@
+#sponsors {
+    padding-top: 120px;
+}
 
+#team {
+    padding-top: 30px;
+}
 
 .sponsorcont {
     display: flex;
@@ -8,9 +14,24 @@
     margin-top: 40px;
 }
 
-.sponsor {
+.odd {
     margin: 0px 20px;
+    transition: all .2s ease-in-out; 
 }
+
+.even {
+    margin: 0px 20px;
+    transition: all .2s ease-in-out; 
+}
+
+.odd:hover {
+    transform: rotate(6deg) scale(1.1);
+}
+
+.even:hover {
+    transform: rotate(-6deg) scale(1.1);
+}
+
 
 .teamcont {
     display: flex;
@@ -42,6 +63,13 @@
 }
 
 .footer {
-    text-align: left;
     color: rgb(86, 83, 95);
+}
+
+.contcard {
+    text-align: center;
+    border: solid 10px rgb(158, 129, 134);
+    background-color: rgb(215, 168, 175);
+    margin: 10px 80px;
+    padding: 20px;
 }

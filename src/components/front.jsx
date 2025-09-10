@@ -1,5 +1,9 @@
+
+
 export const Front = () => {
     return (
-        <div>Hellooooooooooo</div>
+        <div id='frontpage'>
+
+        </div>
     )
 }
