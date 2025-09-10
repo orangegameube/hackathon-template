@@ -18,8 +18,9 @@
     justify-content: center;
 }
 
-hr {
-    border: 5px solid white;
+.teamhr {
+    border: 4px solid white;
+    border-radius: 5px;
 }
 
 .member {
@@ -38,4 +39,9 @@ hr {
     font-size: 17px;
     color: rgb(95, 95, 95);
     margin-bottom: 10px;
+}
+
+.footer {
+    text-align: left;
+    color: rgb(86, 83, 95);
 }

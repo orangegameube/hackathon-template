@@ -49,3 +49,7 @@ h3 {
 p {
     text-align: left;
 }
+
+hr {
+    border: 2px solid white;
+}
